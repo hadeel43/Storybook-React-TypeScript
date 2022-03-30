@@ -1,13 +1,11 @@
-import React from 'react'
-import Tag from './index'
+import React from "react";
+import Tag from "./index";
 
 export default {
-  title: 'Tag title',
-  component: Tag
+	title: "Tag title",
+	component: Tag,
 } as any;
 
-export const Primary = () =><Tag />
+export const Primary = () => <Tag title="My first tag" />;
 
-export const Second = () => (
-  <Tag title="My second tag" />
-)
+export const Second = () => <Tag title="My second tag" />;

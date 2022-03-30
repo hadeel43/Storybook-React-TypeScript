@@ -1,12 +1,8 @@
-import React, { FC } from 'react'
+import React, {FC} from "react";
 interface TagProps {
-     title?: string;
+	title?: string;
 }
-const Tag: FC<TagProps> = ({ title="My title" }) => {
-     return (
-         <div style={{backgroundColor: 'yellow'}}>
-             {title}
-         </div>
-     )
-}
-export default Tag
+const Tag: FC<TagProps> = ({title}) => {
+	return <div>{title}</div>;
+};
+export default Tag;
